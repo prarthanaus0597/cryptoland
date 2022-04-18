@@ -1,0 +1,139 @@
+.images{
+    width:50px;
+    height:50px;
+    
+}
+.information-box{
+    border: 1px solid black;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+    border-radius: 50px;
+    overflow-y: hidden;
+  
+
+  
+}
+.information{
+margin-left: 5%;
+overflow-y: hidden;
+display: flex;
+width:100%;
+}
+.h5{
+    overflow-y: hidden;  
+    display: flex;
+    justify-content:flex-start;
+    width: 100%;
+ 
+}
+.box{
+    overflow: hidden;
+}
+h2{
+    height: 6%;
+    color: rgb(60, 223, 182);
+    text-align: center;
+    margin-top:2%;
+    overflow: hidden;
+    position: relative;
+    z-index: 1000;
+    background: transparent;
+}
+.heading{
+    height:100%;
+   
+}
+hr{
+    border-top: 3px solid rgb(87, 133, 201);
+}
+
+.group1{
+    display: inline-block;
+  
+    margin-left: 1%;
+  z-index: 1;
+}
+.group2{
+    display: inline-block;
+    margin-left:5%;
+   z-index: 3;
+    
+}
+.group3{
+    display: inline-block;
+    margin-left:5%;
+   z-index: 3;
+}
+.names{
+ overflow: hidden;   
+}
+.rank{
+    position: relative;
+   margin-top: 2%;
+    overflow: hidden;
+}
+.logos{
+    position: relative;
+  
+    z-index: 2;
+    overflow: hidden;
+}
+.price{
+    position: relative;
+   
+    overflow: hidden;
+}
+.pricechange{
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    margin-top: 2%;
+}
+.up{
+    color: green;
+    overflow: hidden;
+}
+.down{
+    color:red;
+    overflow: hidden;
+}
+.mktcap{
+    position: relative;
+    margin-top: 2%;
+    overflow: hidden;
+}
+.volume{
+    position: relative;
+   overflow: hidden;
+}
+.supply{
+    position: relative;
+    overflow: hidden;
+    margin-top: 2%;
+    
+}
+.h5{
+    margin-top: 1%;
+}
+@media screen and (max-width:1050px){
+    .h5{
+        display: flex;
+        text-align: start;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+    .volume{
+        margin-top: 2%;
+        overflow: visible;
+    }
+    .group2,.group3{
+        margin-left: 1%;
+    }
+    .information{
+        margin-bottom: 5%;
+    }
+    .mktcap{
+        overflow: visible;
+    }
+   }

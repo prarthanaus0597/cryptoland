@@ -1,0 +1,168 @@
+.coin-img{
+    width: 40px;
+    height: 40px;
+    margin-right:10px ;
+}
+.coin-table{
+  border-bottom:3px solid lightgray ; 
+  overflow: scroll; 
+}
+.table-responsive-sm{
+    overflow: scroll;
+}
+
+.form-select{
+    max-width:40vw;
+
+}
+.dropdown{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-top: 7.45%;
+    background: none;
+     
+}
+.fa-chart-bar,.fa-minus-circle{
+    cursor:pointer
+}
+
+.select{
+    border:1px solid rgb(0, 140, 255);
+    color:rgb(23, 110, 42);
+}
+.h2{
+    height: 6%;
+    color: whitesmoke;
+    text-align: center;
+    margin-top:2%;
+    overflow: hidden;
+    position: relative;
+    z-index: 1001;
+    background: transparent;
+    margin-left: -8%;   
+}
+.heading-watch{
+    height:100%;
+   
+   
+}
+
+.coin-input{
+    margin-top: 10px;
+    height: 43px;
+}
+
+.button-add{
+    
+    margin-left: 2vw ;
+color: whitesmoke;
+font-weight: 500;
+}
+
+.button-add:hover{
+    color: rgba(0, 0, 0, 0.863);
+    background-color: #fde7f9;
+    background-image: linear-gradient(315deg, #fde7f9 0%, #aacaef 74%);
+   }
+
+   .fa-minus-circle{
+       color: rgb(25, 25, 105);
+   }
+  
+
+.links{
+    background-color: whitesmoke;
+    text-decoration: none;
+    color: rgba(0, 81, 255, 0.925);
+}
+.links:hover{
+text-decoration: none;
+background-color: rgb(54, 107, 223);
+color: whitesmoke;
+}
+
+
+ 
+
+
+
+@media screen and (min-width:451px) and (max-width:780px){
+
+.h2{
+    position: relative;
+    margin-top:25%;
+    margin-left:-4%;
+    
+    font-size: 30px;
+    color: black
+
+    
+     }
+    }
+   @media screen and (min-width:451px) and (max-width:780px){
+    .dropdown,.input{
+        margin-top: 15vw;
+    }
+    
+  
+         .dropdown,.input{
+            margin-top: 5%;
+        }
+        .buttons{
+            position:absolute;
+           z-index: 1006;
+          top:8%;
+           
+           margin-left:70%;
+           background-color: transparent;
+        
+        
+          }
+          
+        /* .buttons{
+            /* position: relative;
+            margin-top:5%;
+            margin-left:-5%;
+       
+          background-color: whitesmoke;
+          text-align: center; 
+          z-index:1;
+    
+        } */
+        
+       
+    
+}
+@media screen and (max-width:450px) {
+    
+   
+    .h2{
+      position: relative;
+      margin-top: 35%;
+      margin-left:5%;
+      z-index: 1;
+      font-size: 23px;
+      color:black;
+ 
+      
+       }
+    }
+       @media screen and (max-width:450px) {   
+    .dropdown,.input{
+        margin-top: 5%;
+    }
+    .buttons{
+        position: relative;
+        margin-top:5%;
+        margin-left:2%;
+   
+      background-color: whitesmoke;
+      text-align: center;
+      z-index:1;
+
+    }
+    
+   
+        
+       }

@@ -1,0 +1,47 @@
+.header {
+  color: #fff;
+  z-index: 100;
+
+  border-bottom: 2px solid rgb(150, 158, 150);
+  background-color: #24126a;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  margin-bottom: 10%;
+  opacity: 0.9;
+  overflow: hidden;
+}
+
+.container {
+  background-color: #24126a;
+  color: #fff;
+}
+
+.img {
+  width: 200px;
+  background-color: #24126a;
+  color: #fff;
+
+  margin-bottom: 2%;
+}
+.logo {
+  background-color: #24126a;
+  color: #fff;
+}
+
+.buttons {
+  position: absolute;
+  z-index: 1006;
+  margin-top: -4%;
+
+  margin-left: 80%;
+  background-color: transparent;
+}
+
+@media screen and(max-width:450px) {
+  .header {
+    display: flex;
+  }
+}

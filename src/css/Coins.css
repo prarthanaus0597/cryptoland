@@ -1,0 +1,131 @@
+*{
+    color: black;
+    background-color:whitesmoke;
+    overflow-x: hidden;
+
+}
+.image img{
+    width: 20px;
+    height: 20px;
+    margin-right:10px ;
+
+
+}
+
+.red{
+    color: red;
+
+}
+.green{
+    color: rgb(53, 184, 129);
+}
+th{
+    text-align:start;
+    padding-left: 50px;
+    
+}
+.table-head{
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    text-align: start;
+}
+
+
+
+
+.fas{
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+   
+}
+
+#addon-wrapping{
+    
+    background-color: rgb(0, 132, 255);
+    color: whitesmoke;
+    width:15%;
+    overflow: visible;
+    text-align: center;
+
+    
+   
+
+}
+
+tr{
+   text-align: center;
+}
+
+td{
+    text-align: center;
+}
+.name{
+    text-align: start;
+}
+
+.flex-nowrap{
+    margin-left: 30vw;
+    margin-top: 2%;
+    height: auto;
+    width: 40vw;
+    text-align: center;
+    background-color: whitesmoke;
+}
+.coin-input{
+       max-width:30vw;
+       border:1px solid rgb(0, 140, 255);
+}
+.symbol{
+    text-transform: uppercase;
+}
+.table-responsive-sm{
+    max-width: 100%;
+    margin-right: 0;
+    overflow: hidden;
+    margin-top: 2%;
+}
+
+
+
+
+@media screen and (min-width:451px) and (max-width:950px){
+    #addon-wrapping{
+        width:100px;
+        text-align: center;
+   
+    }
+    
+    
+}
+@media screen and (max-width:450px) {
+    body{
+        overflow-x: scroll;
+        text-align: center;
+    }
+    table{
+        text-align: center;
+    }
+  
+ #addon-wrapping{
+     width:80px;
+     text-align: center;
+
+ }
+ .input{
+     width:500px;
+ }
+ .flex-nowrap{
+    margin-left:25%;
+    width:600px;
+    margin-top: 8%;
+   
+ }
+
+ tr{
+     overflow: scroll;
+ }
+ 
+ 
+}
+
